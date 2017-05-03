@@ -3,6 +3,9 @@
   padding: 21px;
   display:inline-block;
   }
+  .logo{
+    float:right;
+  }
 header{
   position: fixed;
   background:white;
@@ -14,7 +17,7 @@ header{
    padding: 14px 70px;
  }
  #home{
-   background-image: img/bg-home.jpg;
+   background-image: url(../assets/images/bg-home.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -24,7 +27,22 @@ header{
  }
  #home .container{
    color: white;
-   padding: 70px;
+   padding: 70px;}
+
+ .text-home{
+   font-size: 53px;
+ }
+
+ .btn-home{
+   background: #2ECC71;
+   color: #fff;
+   padding: 11px 20px;
+   border-radius: 1px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-top: 63px;
+   display: inline-block;
+   font-size: 14px;
  }
   /* * Ingresa el CSS del proyecto en este archivo
  */
